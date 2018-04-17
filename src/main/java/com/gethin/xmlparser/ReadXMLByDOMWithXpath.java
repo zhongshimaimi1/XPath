@@ -75,7 +75,7 @@ public class ReadXMLByDOMWithXpath {
 			System.out.println(author.getTextContent().trim());
 		}
 	}
-
+	//解析成book对象
 	public static List<Book> listBooksWithXpath(String fileName)
 			throws XPathExpressionException, SAXException, IOException {
 		List<Book> books = new ArrayList<Book>();
